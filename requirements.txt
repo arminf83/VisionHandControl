@@ -1,0 +1,1 @@
+"opencv-python==4.8.1.78mediapipe==0.10.0pycaw==20211221comtypes==1.1.14numpy==1.24.3" 
