@@ -2,32 +2,62 @@
 
 A real-time hand gesture volume controller using computer vision. Control your system volume by simply pinching your fingers in the air!
 
-## Features
-- ✋ Hand gesture recognition
-- 🔊 Real-time volume control
-- 🎯 Smooth volume adjustment
-- ⚙️ Calibration mode
-- 📊 Visual feedback
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.8-green)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Installation
+## ✨ Features
+- ✋ Real-time hand gesture recognition
+- 🔊 Instant volume control
+- 🎯 Smooth volume adjustment
+- ⚙️ Smart calibration mode
+- 📊 Live visual feedback
+- 🖥️ Cross-platform support
+
+## 🚀 Installation
+
 \`\`\`bash
+# Clone repository
+git clone https://github.com/arminf83/VisionHandControl.git
+cd VisionHandControl
+
+# Install dependencies
 pip install -r requirements.txt
 \`\`\`
 
-## Usage
+## 💡 Usage
+
 \`\`\`bash
 python cam.py
 \`\`\`
 
-## Controls
+## 🎮 Controls
 - \`c\` - Toggle calibration mode
 - \`q\` - Quit application
 
-## Technologies
+## 🛠️ Technologies
 - Python
 - OpenCV
 - MediaPipe
 - Pycaw
+- NumPy
 
-## License
-MIT License
+## 📁 Project Structure
+\`\`\`
+VisionHandControl/
+├── cam.py                 # Main application
+├── requirements.txt       # Dependencies
+├── README.md             # Documentation
+├── LICENSE               # MIT License
+└── .gitignore           # Git ignore rules
+\`\`\`
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first.
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+⭐ Star this repo if you found it helpful!
